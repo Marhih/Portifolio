@@ -100,8 +100,23 @@ p.about__paragraph{
 
 /*Sessão Skills*/
 
-section.skills{
+h3.skills__title{
+  text-align: center;
+}
+div.skills__line{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.skills__box ul{
+  margin-right: 20px;
+}
+li.skills__img img{
+  width: 150px;
+}
+li.skills__name{
+  margin-top: 5px;
+  text-align: center;
 }
 
 /*Sessão Hobbies*/
