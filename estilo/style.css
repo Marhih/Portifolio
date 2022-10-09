@@ -121,8 +121,19 @@ li.skills__name{
 
 /*Sessão Hobbies*/
 
-section.hobbies{
+h3.hobbies__title{
+  text-align: center;
+}
+div.hobbies__line{
   display: flex;
+  justify-content: space-between;
+}
+li.hobbies__img img{
+  width: 200px;
+}
+li.hobbies__name{
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* Experiência Acadêmica*/
