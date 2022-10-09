@@ -71,6 +71,7 @@ section.title{
 div.title__div{
   display: flex;
   align-items: center;
+  margin: 5px 50px;
 }
 img.title__profile{
   width: 380px;
@@ -81,6 +82,7 @@ img.title__profile{
 div.title__container{
   text-align: center;
   color: #FFFFFF;
+  margin-left: 10px;
 }
 li.title__network__item{
   padding: 5px;
@@ -91,6 +93,9 @@ li.title__network__item{
 section.about{
   display: flex;
   text-align: center;
+}
+p.about__paragraph{
+  margin: 5px 10px;
 }
 
 /*Sessão Skills*/
