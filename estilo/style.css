@@ -111,9 +111,20 @@ section.hobbies{
 }
 
 /* Experiência Acadêmica*/
-
-section.academic{
+h2.academic__title{
+  text-align: center;
+}
+div.academic__courses{
   display: flex;
+  align-items: center;
+}
+div.academic__courses__box{
+  margin: 5px 20px;
+}
+ul.academic__courses__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* experiência*/
