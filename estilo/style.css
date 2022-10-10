@@ -84,8 +84,16 @@ div.title__container{
   color: #FFFFFF;
   margin-left: 10px;
 }
+div.principal__title__network{
+  display: flex;
+  justify-content: space-between;
+}
 li.title__network__item{
   padding: 5px;
+  color: #FFFFFF;
+}
+li.title__network__img img{
+  width: 50px;
 }
 
 /*Sessão About*/
@@ -100,8 +108,10 @@ p.about__paragraph{
 
 /*Sessão Skills*/
 
-h3.skills__title{
+h2.skills__title{
   text-align: center;
+  background-color: #FFFFFF;
+  padding: 5px;
 }
 div.skills__line{
   display: flex;
@@ -112,7 +122,7 @@ div.skills__box ul{
   margin-right: 20px;
 }
 li.skills__img img{
-  width: 150px;
+  width: 130px;
 }
 li.skills__name{
   margin-top: 5px;
@@ -121,15 +131,17 @@ li.skills__name{
 
 /*Sessão Hobbies*/
 
-h3.hobbies__title{
+h2.hobbies__title{
   text-align: center;
+  background-color: #FFFFFF;
+  padding: 5px;
 }
 div.hobbies__line{
   display: flex;
   justify-content: space-between;
 }
 li.hobbies__img img{
-  width: 200px;
+  width: 150px;
 }
 li.hobbies__name{
   text-align: center;
@@ -139,10 +151,12 @@ li.hobbies__name{
 /* Experiência Acadêmica*/
 h2.academic__title{
   text-align: center;
+  background-color: #FFFFFF;
+  padding: 5px;
 }
 div.academic__courses{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 div.academic__courses__box{
   margin: 5px 20px;
@@ -155,15 +169,32 @@ ul.academic__courses__list{
 
 /* experiência*/
 
-section.experience{
+h2.experience__section__title{
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+div.experiencie__box{
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+img.experience__img{
+  width: 600px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: #FFFFFF;
+}
+div.experience__info{
+  text-align: center;
+  margin: 10px 0;
 }
 
 /*Contato*/
 
-section.formcontato{
+div.formcontato__contacto{
   display: flex;
+  align-items: stretch;
 }
 img.formcontato__img{
   width: 470px;
@@ -171,13 +202,15 @@ img.formcontato__img{
   margin-bottom: 0;
   border-radius: 30px;
 }
-div.formcontato__contacto{
-  display: flex;
-}
 div.formcontato__text{
   direction: flex;
-  margin-left: 1%;
   text-align: center;
+  width: 470px;
+  height: 450px;
+}
+h2.formcontato__title{
+  background-color: #FFFFFF;
+  margin-left: 0;
 }
 form.formcontato__form{
   display: flex;
