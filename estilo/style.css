@@ -171,10 +171,16 @@ h2.academic__title{
 }
 div.academic__courses{
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
 }
-div.academic__courses__box{
-  margin: 5px 20px;
+div.academic__courses__box ul{
+  background-color: #FFFFFF;
+  padding: 5px 5px;
+  margin: 50px 40px 50px 50px;
+  border-radius: 5px;
+  width: 200px;
+  height: 250px;
+  text-align: center;
 }
 ul.academic__courses__list{
   display: flex;
