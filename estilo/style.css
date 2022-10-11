@@ -49,11 +49,15 @@ section.menu{
   align-items: center;
   justify-content: space-between;
   right: 0;
-  background-color: #FFFFFF;
   width: 100%;
 }
 header{
   display: flex;
+}
+header h3.menu__title{
+  font-size: 30px;
+  color: #FFFFFF;
+  text-shadow: 3px 3px #000000;
 }
 ul.menu__list{
   display: flex;
@@ -61,6 +65,16 @@ ul.menu__list{
 }
 li.menu__list__item{
   padding: 10px;
+}
+li.menu__list__item a{
+  font-size: 18px;
+  color: #FFFFFF;
+  border-top: dashed 2px;
+  text-shadow: 2px 2px #000000;
+}
+li.menu__list__item a:hover{
+  text-decoration: underline 2px;
+  color: yellow;
 }
 
 /*Sessão Title*/
