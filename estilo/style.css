@@ -110,38 +110,52 @@ p.about__paragraph{
 
 h2.skills__title{
   text-align: center;
-  background-color: #FFFFFF;
-  padding: 5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-bottom: solid 2px;
 }
 div.skills__line{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px 50px 80px;
 }
 div.skills__box ul{
-  margin-right: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  margin: 10px 15px;
+  border-radius: 5px;
 }
 li.skills__img img{
-  width: 130px;
+  width: 80px;
 }
 li.skills__name{
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
 }
-
+div#soft__skills{
+  margin: 50px 160px 50px 200px;
+}
 /*Sessão Hobbies*/
 
 h2.hobbies__title{
   text-align: center;
-  background-color: #FFFFFF;
-  padding: 5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-bottom: solid 2px;
 }
 div.hobbies__line{
   display: flex;
-  justify-content: space-between;
+  margin: 50px 200px 50px 220px;
+}
+div.hobbies__box ul{
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  margin: 0px 20px;
+  border-radius: 5px;
 }
 li.hobbies__img img{
-  width: 150px;
+  width: 100px;
 }
 li.hobbies__name{
   text-align: center;
@@ -151,8 +165,9 @@ li.hobbies__name{
 /* Experiência Acadêmica*/
 h2.academic__title{
   text-align: center;
-  background-color: #FFFFFF;
-  padding: 5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-bottom: solid 2px;
 }
 div.academic__courses{
   display: flex;
@@ -171,8 +186,9 @@ ul.academic__courses__list{
 
 h2.experience__section__title{
   text-align: center;
-  background-color: #FFFFFF;
-  padding: 5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-bottom: solid 2px;
 }
 div.experiencie__box{
   display: flex;
@@ -205,20 +221,21 @@ img.formcontato__img{
 div.formcontato__text{
   direction: flex;
   text-align: center;
-  width: 470px;
-  height: 450px;
 }
 h2.formcontato__title{
-  background-color: #FFFFFF;
-  margin-left: 0;
+  font-size: 30px;
+  color: #FFFFFF;
+  border-bottom: solid 2px;
 }
 form.formcontato__form{
   display: flex;
   flex-direction: column;
-  margin-right: 5px;
+  margin: 5px 30px;
 }
 input.formcontato__input{
-  margin-bottom: 3%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
 }
 
 /*footeer*/
