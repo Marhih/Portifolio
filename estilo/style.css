@@ -57,7 +57,7 @@ header{
 header h3.menu__title{
   font-size: 30px;
   color: #FFFFFF;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 3px 3px #363636;
 }
 ul.menu__list{
   display: flex;
@@ -70,7 +70,7 @@ li.menu__list__item a{
   font-size: 18px;
   color: #FFFFFF;
   border-top: dashed 2px;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #363636;
 }
 li.menu__list__item a:hover{
   text-decoration: underline 2px;
@@ -128,6 +128,9 @@ p.about__paragraph{
 
 /*Sessão Skills*/
 
+section.skills{
+  width: 940px;
+}
 h2.skills__title{
   text-align: center;
   font-size: 30px;
@@ -158,6 +161,9 @@ div#soft__skills{
 }
 /*Sessão Hobbies*/
 
+section.hobbies{
+  width: 940px;
+}
 h2.hobbies__title{
   text-align: center;
   font-size: 30px;
@@ -183,6 +189,10 @@ li.hobbies__name{
 }
 
 /* Experiência Acadêmica*/
+
+section.academic{
+  width: 940px;
+}
 h2.academic__title{
   text-align: center;
   font-size: 30px;
@@ -210,6 +220,9 @@ ul.academic__courses__list{
 
 /* experiência*/
 
+section.experience{
+  width: 940px;
+}
 h2.experience__section__title{
   text-align: center;
   font-size: 30px;
@@ -234,6 +247,9 @@ div.experience__info{
 
 /*Contato*/
 
+section.formcontato{
+  width: 940px;
+}
 div.formcontato__contacto{
   display: flex;
   align-items: stretch;
