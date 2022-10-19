@@ -485,6 +485,19 @@ div.footer__rodape p{
   }
 
 /*Expeirência profissional*/
+  section.experience{
+    width: 700px;
+  }
+  div.experiencie__box{
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    margin-top: 20px;
+  }
+  img.experience__img{
+    width: 350px;
+  }
 
 }
 
