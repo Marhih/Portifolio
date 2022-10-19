@@ -447,39 +447,13 @@ div.footer__rodape p{
     width: 700px;
     margin-top: 10px;
   }
-  h2.skills__title{
-    text-align: center;
-    font-size: 30px;
-    color: #FFFFFF;
-    text-shadow: 2px 2px #363636;
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    padding: 2px 0 2px 0;
-  }
   div.skills__line{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 50px 50px 80px;
-  }
-  div.skills__box ul{
-    background: linear-gradient(#FFFFFF, #DADFEA, #9DA6B8);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-    padding: 20px 20px;
-    margin: 10px 15px;
-    border-radius: 5px;
-  }
-
-  li.skills__img img{
-    width: 80px;
-  }
-  li.skills__name{
-    margin-top: 10px;
-    text-align: center;
+    justify-content: center;
   }
   div#soft__skills{
-    margin: 50px 100px 50px 150px;
+    margin: auto;
   }
+
 /*Hobbies*/
 
 /*Experiências acadêmicas*/
