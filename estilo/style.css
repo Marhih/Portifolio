@@ -625,31 +625,25 @@ div.footer__rodape p{
     width: 500px;
   }
 
-  div.hobbies__line{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-
 /*Experiências acadêmicas*/
   section.academic{
-    width: 700px;
-  }
-  div.academic__courses{
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    margin: auto;
+    width: 500px;
   }
   li.academic__courses__item__img img{
-    width: 100px;
+    width: 80px;
     height: auto;
   }
   div.academic__courses__box ul{
     width: 150px;
-    height: 250px;
+    height: 220px;
+    margin: 10px;
   }
-
+  li.academic__courses__item__title{
+    font-size: 16px;
+  }
+  li.academic__courses__item__subtitle{
+    font-size: 14px;
+  }
 /*Expeirência profissional*/
   section.experience{
     width: 700px;
