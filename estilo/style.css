@@ -660,37 +660,14 @@ div.footer__rodape p{
 /*Contato*/
 
   section.formcontato{
-    width: 700px;
+    display: flex;
+    width: 500px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
   }
   img.formcontato__img{
-    width: 300px;
-  }
-  div.formcontato__text{
-    direction: flex;
-    text-align: center;
-    width: 400px;
-  }
-  h2.formcontato__title{
-    font-size: 30px;
-    color: #FFFFFF;
-    text-shadow: 2px 2px #363636;
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    padding: 2px 0 2px 0;
-  }
-  h3.formcontato__subtext{
-    color: #DADFEA;
-    text-shadow: 2px 2px #363636;
-  }
-  form.formcontato__form{
-    margin: auto;
-  }
-  input.formcontato__input{
-    width: 300px;
-  }
-  textarea.formcontato__textarea{
-    width: 300px;
+    display: none;
   }
 
 }
