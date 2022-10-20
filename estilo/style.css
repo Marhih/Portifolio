@@ -617,19 +617,12 @@ div.footer__rodape p{
 
 /*Skills*/
   section.skills{
-    width: 700px;
-    margin-top: 10px;
-  }
-  div.skills__line{
-    justify-content: center;
-  }
-  div#soft__skills{
-    margin: auto;
+    width: 500px;
   }
 
 /*Hobbies*/
   section.hobbies{
-    width: 700px;
+    width: 500px;
   }
 
   div.hobbies__line{
