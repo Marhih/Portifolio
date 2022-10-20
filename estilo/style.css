@@ -672,6 +672,78 @@ div.footer__rodape p{
 
 }
 
+@media (max-width: 507px) {
+/*title*/
+    div.fosco{
+      width: 300px;
+    }
+    div.title__div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto;
+    }
+    div.title__container{
+      width: 220px;
+      margin-left: 0;
+    }
+
+/*Skills*/
+    section.skills{
+      width: 500px;
+    }
+
+/*Hobbies*/
+    section.hobbies{
+      width: 500px;
+    }
+
+/*Experiências acadêmicas*/
+    section.academic{
+      width: 500px;
+    }
+    li.academic__courses__item__img img{
+      width: 80px;
+      height: auto;
+    }
+    div.academic__courses__box ul{
+      width: 150px;
+      height: 220px;
+      margin: 10px;
+    }
+    li.academic__courses__item__title{
+      font-size: 16px;
+    }
+    li.academic__courses__item__subtitle{
+      font-size: 14px;
+    }
+/*Expeirência profissional*/
+    section.experience{
+      width: 500px;
+    }
+    img.experience__img{
+      width: 320px;
+    }
+    h2.experience__title{
+      font-size: 18px;
+    }
+    h3.experience__text{
+      font-size: 16px;
+    }
+/*Contato*/
+
+    section.formcontato{
+      display: flex;
+      width: 500px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+    img.formcontato__img{
+      display: none;
+    }
+}
+
 /*Mobile*/
 @media (min-width: 425px) {
 
